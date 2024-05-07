@@ -29,7 +29,7 @@ const kittyPrompts = {
     const names = orangeKittyNames.map((cat) => {
       return cat.name
     })
-    
+
     return names
 
     // Annotation:
@@ -38,8 +38,10 @@ const kittyPrompts = {
 
   sortByAge() {
     // Sort the kitties by their age
-
-    /* CODE GOES HERE */
+   return kitties.sort((a,b) => 
+    b.age - a.age
+    )
+    
 
     // Annotation:
     // Write your annotation here as a comment
